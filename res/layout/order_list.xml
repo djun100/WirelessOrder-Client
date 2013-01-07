@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <Spinner
+            android:id="@+id/choise_order_type"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:minWidth="180dip" />
+
+        <Button
+            android:id="@+id/query_order_by_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+
+        <Button
+            android:id="@+id/go_list_menu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/order_title_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:background="@drawable/order_list_title"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/menu_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

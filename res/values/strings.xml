@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电子点餐系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="befor_login">欢迎访问手机点餐系统.\n如果您暂时没有账号,请先注册账号,然后再登陆.\n如果您已经注册,则直接登录即可.</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="accept">同意</string>
+    <string name="login_account_null">登录账号不能为空</string>
+    <string name="login_password_null">登录密码不能为空</string>
+    <string name="pro_title">加载数据</string>
+   	<string name="pro_message">正在加载数据，请稍后...</string>
+   	<string name="new_num_text">新加的菜单有</string>
+    <string name="delete_num_text">服务器删除的菜单有</string>
+    <string name="update_num_text">需要更新的菜单有</string>
+    <string name="error_num_text">出错的数据有</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/order_db_id"
+            android:layout_width="40dip"
+            android:textColor="@color/red"
+            android:text="ID"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip" />
+
+        <TextView
+            android:id="@+id/order_db_name"
+            android:layout_width="120dip"
+              android:text="显示名字"
+              android:textColor="@color/red"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip" />
+
+        <TextView
+            android:id="@+id/order_db_price"
+              android:text="显示价格"
+            android:layout_width="35dip"
+              android:textColor="@color/red"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip" />
+
+        <TextView
+            android:id="@+id/order_db_create_at"
+            android:layout_width="wrap_content"
+              android:text="建立时间"
+              android:textColor="@color/red"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip" />
+
+        <TextView
+            android:id="@+id/order_db_type"
+              android:textColor="@color/red"
+                android:text="建立类型"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/note_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip" />
+
+        <TextView
+            android:id="@+id/note_title"
+              android:textColor="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip" />
+
+        <TextView
+            android:id="@+id/note_ref_date"
+              android:textColor="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip" />
+    </TableRow>
+
+</LinearLayout>
